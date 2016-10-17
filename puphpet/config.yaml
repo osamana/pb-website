@@ -36,8 +36,8 @@ apache:
             docroot: /var/www/osamasite
             port: '80'
             serveraliases:
-                - www.osama.site.dev
-            servername: osama.site.dev
+                - www.osamasite.dev
+            servername: osamasite.dev
             setenv:
                 - 'APP_ENV dev'
             setenvif:

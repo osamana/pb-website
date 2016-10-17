@@ -1,4 +1,6 @@
-inbox
+inbox/*
+!inbox/apache-sample-vhosts/
+!inbox/apache-sample-vhosts/*
 .vagrant
 
 # Created by https://www.gitignore.io/api/django
@@ -12,3 +14,5 @@ local_settings.py
 db.sqlite3
 media
 static
+
+
